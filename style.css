@@ -1,0 +1,186 @@
+body{
+background: linear-gradient(360deg, dodgerblue 
+, midnightblue, #123 );
+color: white;
+ font-family: fantasy;
+}
+.contender{
+ backdrop-filter: blur(20000px);
+ width: 100%;
+ height: 100%;
+
+}
+h1{
+ text-align: center;
+ font-size:3rem;
+ padding: 10px;
+ 
+}
+header h1{
+ font-size: 1.6rem;
+ position: relative;
+ right: 190px;
+ 
+}
+header{
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ border-radius: 30px;
+ padding: 20px;
+ position: sticky;
+ color: blue;
+ position: sticky;
+ top: 0;
+ left: 0;
+}
+nav ul{
+ display: flex;
+gap: 30px ;
+}
+ul li{
+ text-decoration: none;
+ color: white;
+ list-style: none;
+}
+li a{
+ color: blue;
+ text-decoration: none;
+ font-size: 1.5rem;
+ 
+}
+.my-About{
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.my-About p{
+ position: relative;
+ top: 30px;
+ font-size: 3rem;
+ margin: 20px;
+ animation: typing 4s   initial;
+}
+ 
+
+.my-About img{
+ border-radius: 30px;
+ width: 300px;
+}
+.skill{
+ background-color: white;
+ color: darkblue;
+ width: 200px;
+ height: 100px;
+ border-radius: 30px;
+ border: none;
+ text-align: center;
+padding: 20px;
+margin: 20px;
+box-shadow: 0px 0px 10px white;
+transition: 0.3s;
+}
+.skill-item{
+ display: grid;
+ grid-template-columns: repeat(3,  2fr);
+ 
+}
+.content{
+ font-size: 2rem;
+margin: 50px;
+padding: 20px;
+}
+.content img{
+ width: 50px;
+}
+footer{
+ 
+ text-align: center;
+ font-size: 2rem;
+ 
+ background-color: rgba(155, 155, 155, 0.2);
+ margin-top:700px;
+ padding: 50px;
+ border-radius: 30px;
+ box-shadow: 0px 0px 20px black;
+}
+button{
+ position: relative;
+ left: 280px;
+ top: 10px;
+ background:none;
+ font-size:3rem;
+ border: none;
+}
+.light{
+ background: white;
+ color: #000;
+}
+.light header{
+ background-color: #112;
+ color: white;
+}
+.light .skill{
+ background-color: #123;
+ color: white;
+ box-shadow: 0px 0px 20px gold;
+}
+.light li a{
+ color: white;
+}
+.projactss {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+}
+.projects .projact {
+ background-color: white;
+ color: #000;
+ width: 200px;
+ height: 200px;
+ text-align: center;
+ border-radius: 30px;
+ border: none;
+ box-shadow: 0px 0px 20px ;
+ transition: 0.3s;
+}
+.light .projact{
+ background-color: #123;
+ color: white;
+ box-shadow: 0px 0px 20px gold;
+}
+.projactss :active{
+ background-color: darkblue;
+ color: white;
+ box-shadow: 0px 0px 20px white;
+ transform: scale(1.1);
+}
+.skill-item :active{
+ background-color: darkblue;
+ color: white;
+ box-shadow: 0px 0px 20px white;
+ transform: scale(1.1);
+}
+ a{
+ color: white;
+ text-decoration: none;
+ font-size: 1.9rem;
+
+ 
+}
+.light a{
+ color: #123;
+}
+@media (min-with: 750x) {
+ body{
+  font-size: 0.5rem;
+ }
+}
+ @media (min-with: 450px) {
+  .About{
+   width: 100px;
+   font-size: 15px;
+  }
+ }
+ 
+ 
