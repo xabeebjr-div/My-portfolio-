@@ -1,1 +1,8 @@
-my Name  is XabeebJr im new fronend developer this is my portfolio im coding with mobile #My-portfolio-
+# My Portfolio 🚀
+
+My name is **XabeebJr**. I'm a new **Frontend Developer**.
+This is my personal portfolio, and what makes it special is that I'm coding it entirely using my **mobile**! 📱
+
+## Technologies Used:
+* HTML
+* CSS
